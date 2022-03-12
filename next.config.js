@@ -40,7 +40,7 @@ const nextConfig = {
         resolvers: [
           IconsResolver({
             customCollections: ['icon'],
-            enabledCollections: [],
+            enabledCollections: ['mdi'],
             extension: 'jsx',
             prefix: false,
           }),

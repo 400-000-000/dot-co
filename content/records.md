@@ -1,3 +1,0 @@
-# Jaded Records
-
-yeah

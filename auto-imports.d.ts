@@ -3,5 +3,7 @@
 declare global {
   const Icon400Million: typeof import('~icons/icon/400-million.jsx')['default']
   const IconJaded: typeof import('~icons/icon/jaded.jsx')['default']
+  const MdiInstagram: typeof import('~icons/mdi/instagram.jsx')['default']
+  const MdiTwitter: typeof import('~icons/mdi/twitter.jsx')['default']
 }
 export {}

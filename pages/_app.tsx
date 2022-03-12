@@ -16,7 +16,7 @@ function App({ Component, pageProps, router }: AppProps) {
         title='400000000'
         canonical={url}
       />
-      <AnimatePresence>
+      {/* <AnimatePresence>
         <motion.a
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -30,7 +30,7 @@ function App({ Component, pageProps, router }: AppProps) {
           <IconJaded className='block w-full h-full transform scale-120 transition-transform hover:scale-125' />
           <span className='hidden'>400 Million</span>
         </motion.a>
-      </AnimatePresence>
+      </AnimatePresence> */}
       <AnimatePresence exitBeforeEnter initial={false}>
         <Component {...pageProps} key={url} />
       </AnimatePresence>

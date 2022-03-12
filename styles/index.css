@@ -7,6 +7,11 @@
   src: url('../public/fonts/HelveticaNowText-Regular.otf');
   font-weight: 400;
 }
+@font-face {
+  font-family: 'Manosque';
+  src: url('../public/fonts/Manosque-Regular.woff2');
+  font-weight: 400;
+}
 
 :root {
   @apply font-sans box-border bg-white text-black h-[stretch];

@@ -1,5 +1,4 @@
-import classNames from 'classnames'
-import { AnimatePresence, motion } from 'framer-motion'
+import { AnimatePresence } from 'framer-motion'
 import { DefaultSeo } from 'next-seo'
 import { type AppProps } from 'next/app'
 import 'windi.css'
@@ -16,21 +15,6 @@ function App({ Component, pageProps, router }: AppProps) {
         title='400000000'
         canonical={url}
       />
-      {/* <AnimatePresence>
-        <motion.a
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 5, duration: 1, type: 'ease-out' }}
-          href='https://jaded.site'
-          className={classNames(
-            'fixed z-1 left-8 bottom-8 w-20 aspect-square animate-spin'
-          )}
-          style={{ animationDuration: '60s' }}
-        >
-          <IconJaded className='block w-full h-full transform scale-120 transition-transform hover:scale-125' />
-          <span className='hidden'>400 Million</span>
-        </motion.a>
-      </AnimatePresence> */}
       <AnimatePresence exitBeforeEnter initial={false}>
         <Component {...pageProps} key={url} />
       </AnimatePresence>

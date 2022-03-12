@@ -1,6 +1,6 @@
 {
   "name": "400000000",
-  "repository": "https://github.com/replygirl/jaded.git",
+  "repository": "https://github.com/replygirl/400000000.git",
   "scripts": {
     "dev": "next",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx,.json,.jsonc",

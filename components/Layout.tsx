@@ -1,7 +1,6 @@
 import classNames, { type Argument } from 'classnames'
 import { type Variant, motion } from 'framer-motion'
 import { NextSeo } from 'next-seo'
-import { useMemo } from 'react'
 
 interface _Variants {
   initial?: Variant

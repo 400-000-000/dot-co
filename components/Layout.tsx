@@ -1,10 +1,7 @@
 import classNames, { type Argument } from 'classnames'
 import { type Variants, motion } from 'framer-motion'
 import { NextSeo } from 'next-seo'
-import Link from 'next/link'
 import { useRouter } from 'next/router'
-
-import { Logo } from '~/components'
 
 const variants = {
   off: { opacity: 0, scale: 0.9, x: 0, y: 10 },

@@ -14,7 +14,7 @@
 }
 
 :root {
-  @apply font-sans box-border bg-white text-black h-[stretch];
+  @apply font-sans box-border bg-white text-black h-full;
   font-size: 16px;
 }
 

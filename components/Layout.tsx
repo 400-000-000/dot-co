@@ -31,7 +31,7 @@ export const Layout = ({
     <NextSeo {...{ description, title }} openGraph={{ description, title }} />
     <motion.main
       variants={{ ..._variants, ...variants }}
-      className={classNames('relative z-1', className)}
+      className={classNames(className)}
       initial='initial'
       animate='animate'
       exit='exit'

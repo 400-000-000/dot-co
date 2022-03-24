@@ -1,5 +1,8 @@
 {
   "globals": {
-    "Icon400Million": true
+    "Icon400Million": true,
+    "IconJaded": true,
+    "MdiInstagram": true,
+    "MdiTwitter": true
   }
 }

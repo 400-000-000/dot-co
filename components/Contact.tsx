@@ -132,9 +132,12 @@ export const Contact = () => {
               </a>
               <a
                 className='transform transition-transform hover:scale-105'
-                href='https://400000000.co'
+                href='https://jaded.site'
               >
-                <Icon400Million />
+                <IconJaded
+                  className='animate-spin'
+                  style={{ animationDuration: '60s' }}
+                />
               </a>
             </div>
           </div>

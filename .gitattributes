@@ -31,6 +31,7 @@
 *.mov binary
 *.mp4 binary
 *.mp3 binary
+*.otf binary
 *.pdf binary
 *.png binary
 *.pyc binary

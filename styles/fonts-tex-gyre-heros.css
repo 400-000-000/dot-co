@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'TeX Gyre Heros';
+  src: url('../public/fonts/texgyreheros-regular.otf');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'TeX Gyre Heros';
+  src: url('../public/fonts/texgyreheros-italic.otf');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'TeX Gyre Heros';
+  src: url('../public/fonts/texgyreheros-bold.otf');
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'TeX Gyre Heros';
+  src: url('../public/fonts/texgyreheros-bolditalic.otf');
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'TeX Gyre Heros';
+  src: url('../public/fonts/texgyreheroscn-regular.otf');
+  font-stretch: condensed;
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'TeX Gyre Heros';
+  src: url('../public/fonts/texgyreheroscn-italic.otf');
+  font-stretch: condensed;
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'TeX Gyre Heros';
+  src: url('../public/fonts/texgyreheroscn-bold.otf');
+  font-stretch: condensed;
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'TeX Gyre Heros';
+  src: url('../public/fonts/texgyreheroscn-bolditalic.otf');
+  font-stretch: condensed;
+  font-weight: 700;
+  font-style: italic;
+}

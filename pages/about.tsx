@@ -3,8 +3,10 @@ import type { NextPage } from 'next'
 import Link from 'next/link'
 import Markdown from 'react-markdown'
 
-import { Layout } from '~/components'
-import content from '~/content/about.md'
+import { Contact, Layout } from '~/components'
+import contentAbout from '~/content/about.md'
+import contentContact from '~/content/contact.md'
+import contentFooter from '~/content/footer.md'
 
 const AboutPage: NextPage = () => (
   <Layout
@@ -24,32 +26,22 @@ const AboutPage: NextPage = () => (
         </a>
       </motion.a>
     </Link>
-    <section>
-      <Markdown>{content}</Markdown>
-    </section>
-    <section className='flex justify-center space-x-4'>
-      <a
-        className='transform transition-transform hover:scale-105'
-        href='https://twitter.com/400_000_000'
-      >
-        <MdiTwitter />
-      </a>
-      <a
-        className='transform transition-transform hover:scale-105'
-        href='https://instagram.com/400_000_000'
-      >
-        <MdiInstagram />
-      </a>
-      <a
-        className='transform transition-transform hover:scale-105'
-        href='https://jaded.site'
-      >
-        <IconJaded
-          className='block w-1.2em h-1.2em animate-spin'
-          style={{ animationDuration: '60s' }}
-        />
-      </a>
-    </section>
+    <div className='w-max-content max-w-full space-y-24 sm:space-y-32'>
+      <section className='markdown'>
+        <Markdown>{contentAbout}</Markdown>
+      </section>
+      <section className='space-y-2 sm:space-y-4'>
+        <div className='markdown'>
+          <Markdown>{contentContact}</Markdown>
+        </div>
+        <Contact />
+      </section>
+      {!!contentFooter && (
+        <section className='markdown'>
+          <Markdown>{contentFooter}</Markdown>
+        </section>
+      )}
+    </div>
   </Layout>
 )
 

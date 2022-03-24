@@ -42,7 +42,10 @@ export default defineConfig({
 
     content,
   ],
-  safelist: ['hidden'],
+  preflight: {
+    includeAll: true,
+  },
+  safelist: ['hidden', 'markdown', 'h1 h2 h3 h4 h5 h6 p em strong a ol ul li'],
   shortcuts: {
     'bg-image-contain': 'bg-no-repeat bg-center bg-contain',
     'bg-image-cover': 'bg-no-repeat bg-center bg-cover',
@@ -95,12 +98,12 @@ export default defineConfig({
         'monospace',
       ],
       sans: [
-        'Manosque',
-        // 'Helvetica Now Text',
-        // 'Helvetica Neue',
+        'TeX Gyre Heros',
+        'Helvetica Now Text',
+        'Helvetica Neue',
         'Helvetica',
-        // 'Arial',
-        // 'sans-serif',
+        'Arial',
+        'sans-serif',
       ],
     },
   },

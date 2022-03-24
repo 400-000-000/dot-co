@@ -81,6 +81,11 @@
     execa "^5.1.1"
     find-up "^5.0.0"
 
+"@antfu/ni@^0.13.2":
+  version "0.13.2"
+  resolved "https://registry.yarnpkg.com/@antfu/ni/-/ni-0.13.2.tgz#afb346c74dc935da39091efe99a4f03af3763b7d"
+  integrity sha512-iKhPlNUE6fs0g7iRdTJzWFB8XoQb4AbCT46V0mrMsdF1RzyvwnOuzxSjISHQdYzpfirihVG9XpAUy/X540qavg==
+
 "@antfu/utils@^0.3.0":
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/@antfu/utils/-/utils-0.3.0.tgz#6306c43b52a883bd8e973e3ed8dd64248418bcc4"

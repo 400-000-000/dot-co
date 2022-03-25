@@ -5,7 +5,7 @@
 :root {
   @apply font-sans box-border bg-white text-black h-full;
   font-size: 16px;
-  font-stretch: condensed;
+  /* font-stretch: condensed; */
 }
 
 body, [data-reactroot] {

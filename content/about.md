@@ -1,1 +1,1 @@
-A Cooperative Production Company
+A Federation of Cooperatives
